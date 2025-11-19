@@ -9,7 +9,7 @@ DEBUG = os.getenv('DEBUG','1') == '1'
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS','localhost',
     '127.0.0.1',
     '0.0.0.0',
-    'jwelleryecom-1.onrender.com',).split(',') if os.getenv('ALLOWED_HOSTS') else []
+    'jwelleryecom.onrender.com',).split(',') if os.getenv('ALLOWED_HOSTS') else []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
